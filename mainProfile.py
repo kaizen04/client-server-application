@@ -16,7 +16,7 @@ class ProfileMainClass(object):
         self.profilepic = QtWidgets.QLabel(self.presentProfileFrame)
         self.profilepic.setGeometry(QtCore.QRect(6, 25, 171, 161))
         self.profilepic.setObjectName("profilepic")
-        self.profpic = QPixmap("./prof.jpg")
+        self.profpic = QPixmap("./img/prof.jpg")
         self.profilepic.setPixmap(self.profpic)
 
         self.recentFrame = QtWidgets.QFrame(self.presentProfileFrame)
