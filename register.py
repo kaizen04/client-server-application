@@ -211,7 +211,7 @@ class RegisterMainClass(object):
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(window_title)
         self.label.setGeometry(QtCore.QRect(104, 20, 281, 121))
-        self.im1 = QPixmap("./reg.png")
+        self.im1 = QPixmap("./img/reg.png")
         self.label.setPixmap(self.im1)
         #self.label.setStyleSheet("image: url(:/newPrefix/reg.png);")
         self.label.setText("")
