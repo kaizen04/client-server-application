@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>f-login.png</file>
+    <file>f-user-add.png</file>
+    <file>f-back.png</file>
+  </qresource>
+</RCC>
